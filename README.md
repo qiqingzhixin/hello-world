@@ -6,6 +6,11 @@ using namespace std;
   int f(int n);
   int main(){
     cout<<"my first project"<<endl;
+    for(int i=2;i<100;i++){
+       if(f(i)){
+        cout<<i<<endl;
+        }
+    }
     return 0;
   }
   void one(int n){
